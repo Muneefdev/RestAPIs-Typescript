@@ -4,3 +4,7 @@ import { JwtPayload } from "jsonwebtoken";
 export interface RequestWithUser extends Request {
 	user?: JwtPayload | string;
 }
+
+export interface Err extends Error {
+	statusCode?: number;
+}
