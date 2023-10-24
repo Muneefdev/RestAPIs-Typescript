@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import bcrypt from "bcryptjs";
-import prismadb from "..//../utils/db";
+import prismadb from "../utils/db";
 import { generateJWT } from "../modules/auth";
 import { Err } from "../../types";
 

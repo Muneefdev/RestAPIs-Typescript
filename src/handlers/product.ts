@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import prismadb from "../../utils/db";
+import prismadb from "../utils/db";
 import { RequestWithUser } from "../../types";
 import { User } from "@prisma/client";
 
